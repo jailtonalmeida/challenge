@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-image: url(../imagens/fundo.png);
+}
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    background-image: url(../imagens/bg.png);
+}
+
+
+.cabecalho{
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho img{
+    width: auto;
+    height: auto;
+}
+
+.input-principal{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12%;
+    padding: 2% 0 0 4%;
+}
+
+ .input{
+    width: 400px;
+    height: 330px;
+}
+   
+.menino-lupa {
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 80%;
+    height: 60%;
+}
+
+.container-bnt {
+    width: 60%;
+    height: auto;
+    padding-bottom:2% ;
+}
+
+.btn-criptografar {
+    width: 250px;
+    height: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    background: #0A3871;
+}
+
+.btn-descriptografar {
+    width: 250px;
+    height: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    background: #D8DFE8;
+}
+
+.btn-copiar{
+    width: 90px;
+    height: 40px;
+    margin-bottom: 10%;
+    margin-left: 33%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+}
+
+.rodape{
+    text-align: center;
+    padding: 1%;
+    margin-top: 0;
+}
+
+#text{
+    width: 300px;
+    height: 70%;
+    font-size: 20px;
+    color: #0A3801;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    background: transparent;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+
+#msg{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 48%;
+    height: 470px;
+    top: 20px;
+    margin-right: 3%;
+}
+
+ h1{
+    color: skyblue;
+    margin-right: 60%;
+    text-decoration: underline;
+}
+
+ h2{
+    margin-top: 4%;
+    text-align: center;
+    font-size: 25px;
+}
+
+ h3{
+
+    font-size: 16px;
+}
+
+
+p{
+    margin-left: 4%;
+}
+
+ span{
+    margin-top: 5%;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+
+
+

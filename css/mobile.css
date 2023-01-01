@@ -1,0 +1,110 @@
+@media screen and (max-width:960px){
+
+    .cabecalho{
+        display: flex;
+        justify-content: left;
+    }
+
+    .cabecalho img{
+        width: 60%;
+        height: 20%;
+
+    }
+    
+    .input{
+        width: 400px;
+        height: 330px;
+    }
+
+    .input-principal{
+        display: flex;
+        justify-content:space-around;
+        flex-direction: column;
+        padding: 2% 0 0 4%;
+    }
+
+    
+     #text{
+        width: 400px;
+        height: 330px;
+        font-size: 20px;
+    }
+
+    
+#msg{
+   width: 50%;
+   height: 75%;
+   margin-top: 9%;
+   margin-right: 3%;
+}
+
+.menino-lupa {
+   max-width: 60%;
+   max-height:200px;
+   width: auto;
+   height: auto;
+   margin-top: 4%;
+   margin-left: 25%;
+}
+
+.container-bnt button{
+   width: 150px;
+   height: 50px;
+   margin-left: 2%;
+   margin-top: 5%;
+}
+
+.rodape{
+   display: flex;
+   flex-direction: column;
+   margin-right: 2%;
+   align-items: center;
+   margin-top: 20px;
+   width: 30%;
+}
+    
+}
+
+@media screen and (max-width:550px){
+   #msg{
+      width: 40%;
+   }
+
+   #text{
+      width: 200px;
+      height: 330px;
+      font-size: 20px;
+  }
+
+   .menino-lupa {
+      max-width: 80%;
+      max-height:150px;
+      width: auto;
+      height: auto;
+      margin-top: 4%;
+      margin-left: 5%;
+   }
+
+   .container-bnt{
+      width: 200px;
+      flex-wrap: wrap;
+   }
+
+   .container-bnt button{
+      width: 127px;
+      height: 50px;
+      margin-left: 30%;
+      margin-top: 5%;
+
+   }
+
+
+   .rodape h3{
+      font-size: 14px;
+  }
+
+   h1 {
+    color: skyblue;
+} 
+
+ 
